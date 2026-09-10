@@ -1,0 +1,199 @@
+$date
+	Thu Sep 10 22:08:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module rc_tb $end
+$var wire 4 ! S [3:0] $end
+$var wire 1 " Co $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % Ci $end
+$scope module uut $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 % Ci $end
+$var wire 1 ( c3 $end
+$var wire 1 ) c2 $end
+$var wire 1 * c1 $end
+$var wire 4 + S [3:0] $end
+$var wire 1 " Co $end
+$scope module uut1 $end
+$var wire 1 , A $end
+$var wire 1 - B $end
+$var wire 1 % Ci $end
+$var wire 1 * Co $end
+$var wire 1 . s1 $end
+$var wire 1 / c2 $end
+$var wire 1 0 c1 $end
+$var wire 1 1 S $end
+$scope module uut1 $end
+$var wire 1 , A $end
+$var wire 1 - B $end
+$var reg 1 0 Co $end
+$var reg 1 . S $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 % A $end
+$var wire 1 . B $end
+$var reg 1 / Co $end
+$var reg 1 1 S $end
+$upscope $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 2 A $end
+$var wire 1 3 B $end
+$var wire 1 * Ci $end
+$var wire 1 ) Co $end
+$var wire 1 4 s1 $end
+$var wire 1 5 c2 $end
+$var wire 1 6 c1 $end
+$var wire 1 7 S $end
+$scope module uut1 $end
+$var wire 1 2 A $end
+$var wire 1 3 B $end
+$var reg 1 6 Co $end
+$var reg 1 4 S $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 * A $end
+$var wire 1 4 B $end
+$var reg 1 5 Co $end
+$var reg 1 7 S $end
+$upscope $end
+$upscope $end
+$scope module uut3 $end
+$var wire 1 8 A $end
+$var wire 1 9 B $end
+$var wire 1 ) Ci $end
+$var wire 1 ( Co $end
+$var wire 1 : s1 $end
+$var wire 1 ; c2 $end
+$var wire 1 < c1 $end
+$var wire 1 = S $end
+$scope module uut1 $end
+$var wire 1 8 A $end
+$var wire 1 9 B $end
+$var reg 1 < Co $end
+$var reg 1 : S $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 ) A $end
+$var wire 1 : B $end
+$var reg 1 ; Co $end
+$var reg 1 = S $end
+$upscope $end
+$upscope $end
+$scope module uut4 $end
+$var wire 1 > A $end
+$var wire 1 ? B $end
+$var wire 1 ( Ci $end
+$var wire 1 " Co $end
+$var wire 1 @ s1 $end
+$var wire 1 A c2 $end
+$var wire 1 B c1 $end
+$var wire 1 C S $end
+$scope module uut1 $end
+$var wire 1 > A $end
+$var wire 1 ? B $end
+$var reg 1 B Co $end
+$var reg 1 @ S $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 ( A $end
+$var wire 1 @ B $end
+$var reg 1 A Co $end
+$var reg 1 C S $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1C
+0B
+0A
+1@
+0?
+1>
+1=
+0<
+0;
+0:
+09
+08
+17
+16
+05
+04
+13
+12
+11
+10
+0/
+0.
+1-
+1,
+b1111 +
+1*
+1)
+0(
+b11 '
+b1011 &
+1%
+b11 $
+b1011 #
+0"
+b1111 !
+$end
+#10000
+1(
+b1001 !
+b1001 +
+15
+07
+1;
+0=
+1C
+06
+14
+1:
+0@
+03
+19
+0>
+b101 $
+b101 '
+b11 #
+b11 &
+#20000
+0(
+0"
+0)
+b1011 !
+b1011 +
+0;
+0=
+0A
+1C
+05
+17
+0:
+1@
+04
+09
+1?
+02
+b1001 $
+b1001 '
+b1 #
+b1 &
+#30000
