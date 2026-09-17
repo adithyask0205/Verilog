@@ -1,0 +1,72 @@
+$date
+	Thu Sep 17 15:20:18 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 2 ! Y [1:0] $end
+$var parameter 32 " N $end
+$var reg 4 # I [3:0] $end
+$var reg 1 $ en $end
+$scope module uut1 $end
+$var wire 4 % I [3:0] $end
+$var wire 1 $ en $end
+$var parameter 32 & N $end
+$var reg 2 ' Y [1:0] $end
+$var integer 32 ( k [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 &
+b100 "
+$end
+#0
+$dumpvars
+bx (
+bx '
+b1 %
+0$
+b1 #
+bx !
+$end
+#5000
+b10 #
+b10 %
+#10000
+b1000 #
+b1000 %
+#15000
+b1001 #
+b1001 %
+#20000
+b0 !
+b0 '
+b100 (
+b1 #
+b1 %
+1$
+#25000
+b100 (
+b1 !
+b1 '
+b10 #
+b10 %
+#30000
+b100 (
+b11 !
+b11 '
+b1000 #
+b1000 %
+#35000
+b100 (
+b11 !
+b11 '
+b1001 #
+b1001 %
+#40000

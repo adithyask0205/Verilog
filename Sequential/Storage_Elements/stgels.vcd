@@ -1,0 +1,124 @@
+$date
+	Thu Sep 17 16:13:21 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! Q_pos $end
+$var wire 1 " Q_neg $end
+$var wire 1 # Q_latch $end
+$var parameter 32 $ T $end
+$var reg 1 % D $end
+$var reg 1 & clk $end
+$scope module uut1 $end
+$var wire 1 % D $end
+$var wire 1 & clk $end
+$var wire 1 ! Q_pos $end
+$var wire 1 " Q_neg $end
+$var wire 1 # Q_latch $end
+$scope module d_fn $end
+$var wire 1 % D $end
+$var wire 1 ' Q_b $end
+$var wire 1 & clk $end
+$var reg 1 " Q $end
+$upscope $end
+$scope module d_fp $end
+$var wire 1 % D $end
+$var wire 1 ( Q_b $end
+$var wire 1 & clk $end
+$var reg 1 ! Q $end
+$upscope $end
+$scope module d_l $end
+$var wire 1 % D $end
+$var wire 1 ) Q_b $end
+$var wire 1 & clk $end
+$var reg 1 # Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10100 $
+$end
+#0
+$dumpvars
+x)
+x(
+1'
+0&
+0%
+x#
+0"
+x!
+$end
+#10
+1(
+1)
+0!
+0#
+1&
+#20
+0&
+#30
+1&
+#40
+0'
+1"
+0&
+1%
+#50
+0(
+0)
+1!
+1#
+1&
+#60
+0&
+#70
+1&
+#80
+0&
+#90
+1)
+1(
+0#
+0!
+0%
+1&
+#92
+0)
+1#
+1%
+#95
+1)
+0#
+0%
+#99
+0)
+1#
+1%
+#100
+0&
+#110
+0(
+1!
+1&
+#120
+1'
+0"
+0%
+0&
+#122
+1%
+#125
+0%
+#129
+1%
+#130
+1&
+#133
