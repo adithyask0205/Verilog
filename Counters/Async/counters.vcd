@@ -1,0 +1,384 @@
+$date
+	Fri Sep 18 13:31:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! Q_up [3:0] $end
+$var wire 4 " Q_down [3:0] $end
+$var parameter 32 # N $end
+$var parameter 32 $ T $end
+$var reg 1 % clk $end
+$var reg 1 & reset_n $end
+$scope module uut1 $end
+$var wire 1 % clk $end
+$var wire 1 & reset_n $end
+$var wire 4 ' Q [3:0] $end
+$var parameter 32 ( N $end
+$scope begin genblk1[0] $end
+$var parameter 2 ) k $end
+$scope module TFF $end
+$var wire 1 * T $end
+$var wire 1 % clk $end
+$var wire 1 & reset_n $end
+$var wire 1 + Q $end
+$var parameter 32 , delay $end
+$var reg 1 - Q_next $end
+$var reg 1 + Q_reg $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 . k $end
+$scope module TFF $end
+$var wire 1 / T $end
+$var wire 1 0 clk $end
+$var wire 1 & reset_n $end
+$var wire 1 1 Q $end
+$var parameter 32 2 delay $end
+$var reg 1 3 Q_next $end
+$var reg 1 1 Q_reg $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 4 k $end
+$scope module TFF $end
+$var wire 1 5 T $end
+$var wire 1 6 clk $end
+$var wire 1 & reset_n $end
+$var wire 1 7 Q $end
+$var parameter 32 8 delay $end
+$var reg 1 9 Q_next $end
+$var reg 1 7 Q_reg $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 : k $end
+$scope module TFF $end
+$var wire 1 ; T $end
+$var wire 1 < clk $end
+$var wire 1 & reset_n $end
+$var wire 1 = Q $end
+$var parameter 32 > delay $end
+$var reg 1 ? Q_next $end
+$var reg 1 = Q_reg $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 % clk $end
+$var wire 1 & reset_n $end
+$var wire 4 @ Q [3:0] $end
+$var parameter 32 A N $end
+$scope begin genblk1[0] $end
+$var parameter 2 B k $end
+$scope module TFF $end
+$var wire 1 C T $end
+$var wire 1 % clk $end
+$var wire 1 & reset_n $end
+$var wire 1 D Q $end
+$var parameter 32 E delay $end
+$var reg 1 F Q_next $end
+$var reg 1 D Q_reg $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 G k $end
+$scope module TFF $end
+$var wire 1 H T $end
+$var wire 1 I clk $end
+$var wire 1 & reset_n $end
+$var wire 1 J Q $end
+$var parameter 32 K delay $end
+$var reg 1 L Q_next $end
+$var reg 1 J Q_reg $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 M k $end
+$scope module TFF $end
+$var wire 1 N T $end
+$var wire 1 O clk $end
+$var wire 1 & reset_n $end
+$var wire 1 P Q $end
+$var parameter 32 Q delay $end
+$var reg 1 R Q_next $end
+$var reg 1 P Q_reg $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 S k $end
+$scope module TFF $end
+$var wire 1 T T $end
+$var wire 1 U clk $end
+$var wire 1 & reset_n $end
+$var wire 1 V Q $end
+$var parameter 32 W delay $end
+$var reg 1 X Q_next $end
+$var reg 1 V Q_reg $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 W
+b11 S
+b10 Q
+b10 M
+b10 K
+b1 G
+b10 E
+b0 B
+b100 A
+b10 >
+b11 :
+b10 8
+b10 4
+b10 2
+b1 .
+b10 ,
+b0 )
+b100 (
+b10100 $
+b100 #
+$end
+#0
+$dumpvars
+1X
+0V
+0U
+1T
+1R
+0P
+0O
+1N
+1L
+0J
+0I
+1H
+1F
+0D
+1C
+b0 @
+1?
+0=
+1<
+1;
+19
+07
+16
+15
+13
+01
+10
+1/
+1-
+0+
+1*
+b0 '
+0&
+0%
+b0 "
+b0 !
+$end
+#10
+1%
+#20
+0%
+1&
+#30
+0X
+1V
+1U
+0R
+1P
+1O
+0L
+1J
+00
+1I
+0-
+b1 !
+b1 '
+0F
+b1111 "
+b1111 @
+1+
+1D
+1%
+#40
+0%
+#50
+06
+03
+11
+10
+0I
+1F
+b1110 "
+b1110 @
+1-
+b10 !
+b10 '
+0D
+0+
+1%
+#60
+0%
+#70
+0O
+1L
+0J
+00
+1I
+0-
+b11 !
+b11 '
+0F
+b1101 "
+b1101 @
+1+
+1D
+1%
+#80
+0%
+#90
+0<
+09
+17
+16
+13
+01
+10
+0I
+1F
+b1100 "
+b1100 @
+1-
+b100 !
+b100 '
+0D
+0+
+1%
+#100
+0%
+#110
+0U
+1R
+0P
+1O
+0L
+1J
+00
+1I
+0-
+b101 !
+b101 '
+0F
+b1011 "
+b1011 @
+1+
+1D
+1%
+#120
+0%
+#130
+06
+03
+11
+10
+0I
+1F
+b1010 "
+b1010 @
+1-
+b110 !
+b110 '
+0D
+0+
+1%
+#140
+0%
+#150
+0O
+1L
+0J
+00
+1I
+0-
+b111 !
+b111 '
+0F
+b1001 "
+b1001 @
+1+
+1D
+1%
+#160
+0%
+#170
+0?
+1=
+1<
+19
+07
+16
+13
+01
+10
+0I
+1F
+b1000 "
+b1000 @
+1-
+b1000 !
+b1000 '
+0D
+0+
+1%
+#180
+0%
+#190
+1X
+0V
+1U
+0R
+1P
+1O
+0L
+1J
+00
+1I
+0-
+b1001 !
+b1001 '
+0F
+b111 "
+b111 @
+1+
+1D
+1%
+#200
+0%
+#210
+06
+03
+11
+10
+0I
+1F
+b110 "
+b110 @
+1-
+b1010 !
+b1010 '
+0D
+0+
+1%
+#220
+0%
