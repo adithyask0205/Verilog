@@ -1,0 +1,340 @@
+$date
+	Mon Sep 21 15:19:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var parameter 32 ! ADDR_WIDTH $end
+$var parameter 32 " DATA_WIDTH $end
+$var parameter 32 # T $end
+$var reg 7 $ A [6:0] $end
+$var reg 7 % B [6:0] $end
+$var reg 7 & addr_r [6:0] $end
+$var reg 7 ' addr_w [6:0] $end
+$var reg 1 ( clk $end
+$var reg 8 ) data_r [7:0] $end
+$var reg 8 * data_w [7:0] $end
+$var reg 1 + reset_n $end
+$var reg 1 , swap $end
+$var reg 1 - we $end
+$var integer 32 . i [31:0] $end
+$scope module uut1 $end
+$var wire 7 / A [6:0] $end
+$var wire 7 0 B [6:0] $end
+$var wire 7 1 addr_r [6:0] $end
+$var wire 7 2 addr_w [6:0] $end
+$var wire 1 ( clk $end
+$var wire 8 3 data_r [7:0] $end
+$var wire 8 4 data_w [7:0] $end
+$var wire 1 + reset_n $end
+$var wire 1 , swap $end
+$var wire 1 - we $end
+$var wire 1 5 w $end
+$var wire 2 6 sel [1:0] $end
+$var wire 7 7 mux_w [6:0] $end
+$var wire 7 8 mux_r [6:0] $end
+$var parameter 32 9 ADDR_WIDTH $end
+$var parameter 32 : DATA_WIDTH $end
+$scope module FSM $end
+$var wire 1 ( clk $end
+$var wire 1 + reset_n $end
+$var wire 2 ; select [1:0] $end
+$var wire 1 , swap $end
+$var wire 1 5 w $end
+$var parameter 32 < s0 $end
+$var parameter 32 = s1 $end
+$var parameter 32 > s2 $end
+$var parameter 32 ? s3 $end
+$var reg 2 @ state_next [1:0] $end
+$var reg 2 A state_reg [1:0] $end
+$upscope $end
+$scope module MUX_R $end
+$var wire 2 B sel [1:0] $end
+$var wire 7 C w0 [6:0] $end
+$var wire 7 D w1 [6:0] $end
+$var wire 7 E w2 [6:0] $end
+$var wire 7 F w3 [6:0] $end
+$var parameter 32 G N $end
+$var reg 7 H Y [6:0] $end
+$upscope $end
+$scope module MUX_W $end
+$var wire 2 I sel [1:0] $end
+$var wire 7 J w0 [6:0] $end
+$var wire 7 K w1 [6:0] $end
+$var wire 7 L w2 [6:0] $end
+$var wire 7 M w3 [6:0] $end
+$var parameter 32 N N $end
+$var reg 7 O Y [6:0] $end
+$upscope $end
+$scope module REGFILE $end
+$var wire 7 P addr_r [6:0] $end
+$var wire 7 Q addr_w [6:0] $end
+$var wire 1 ( clk $end
+$var wire 8 R data_r [7:0] $end
+$var wire 8 S data_w [7:0] $end
+$var wire 1 T we $end
+$var parameter 32 U ADDR_WIDTH $end
+$var parameter 32 V DATA_WIDTH $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module uut1 $end
+$scope module REGFILE $end
+$var reg 8 W \memory[19] [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module uut1 $end
+$scope module REGFILE $end
+$var reg 8 X \memory[20] [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module uut1 $end
+$scope module REGFILE $end
+$var reg 8 Y \memory[21] [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module uut1 $end
+$scope module REGFILE $end
+$var reg 8 Z \memory[25] [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module uut1 $end
+$scope module REGFILE $end
+$var reg 8 [ \memory[26] [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module testbench $end
+$scope module uut1 $end
+$scope module REGFILE $end
+$var reg 8 \ \memory[27] [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 V
+b111 U
+b111 N
+b111 G
+b11 ?
+b10 >
+b1 =
+b0 <
+b1000 :
+b111 9
+b10100 #
+b1000 "
+b111 !
+$end
+#0
+$dumpvars
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+xT
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx M
+bx L
+b0 K
+bx J
+bx I
+bx H
+b0 F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ;
+bx 8
+bx 7
+bx 6
+x5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+x-
+x,
+0+
+bx *
+bx )
+0(
+bx '
+bx &
+bx %
+bx $
+$end
+#2000
+b10100 .
+1+
+05
+0,
+#10000
+1(
+#20000
+b10100 S
+1T
+b10101 .
+b10100 *
+b10100 4
+b10100 '
+b10100 2
+b10100 J
+1-
+0(
+#30000
+1(
+#40000
+b10101 S
+b10110 .
+b10101 *
+b10101 4
+b10101 '
+b10101 2
+b10101 J
+0(
+#50000
+1(
+#60000
+b10110 S
+b10111 .
+b10110 *
+b10110 4
+b10110 '
+b10110 2
+b10110 J
+0(
+#70000
+1(
+#80000
+b10111 S
+b11000 .
+b10111 *
+b10111 4
+b10111 '
+b10111 2
+b10111 J
+0(
+#90000
+1(
+#100000
+b11000 S
+b11001 .
+b11000 *
+b11000 4
+b11000 '
+b11000 2
+b11000 J
+0(
+#110000
+1(
+#120000
+b11001 S
+b11010 .
+b11001 *
+b11001 4
+b11001 '
+b11001 2
+b11001 J
+0(
+#130000
+1(
+#140000
+b11010 S
+b11011 .
+b11010 *
+b11010 4
+b11010 '
+b11010 2
+b11010 J
+0(
+#150000
+1(
+#160000
+b11011 S
+b11100 .
+b11011 *
+b11011 4
+b11011 '
+b11011 2
+b11011 J
+0(
+#170000
+1(
+#180000
+b11100 S
+b11101 .
+b11100 *
+b11100 4
+b11100 '
+b11100 2
+b11100 J
+0(
+#190000
+1(
+#200000
+b11101 S
+b11110 .
+b11101 *
+b11101 4
+b11101 '
+b11101 2
+b11101 J
+0(
+#210000
+1(
+#220000
+bx S
+b11001 %
+b11001 0
+b11001 E
+b11001 M
+b10110 $
+b10110 /
+b10110 D
+b10110 L
+15
+1,
+0(
+#230000
+1(
+#240000
+0(
+#250000
+1(
+#260000
+0(
+#270000
+1(
+#280000
+b11101 S
+05
+0,
+0(
